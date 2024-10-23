@@ -8,7 +8,30 @@
 </head>
 <body>
     <script>
-        // Write your code here
+       let marks= prompt("enter your marks");
+       let grade;
+       if(marks>=90 && marks<=100)
+       {
+         grade='a';
+       } 
+       else if(marks>=80 && marks<=89)
+       {
+        grade='b' ;
+       }
+       else if(marks>=70 && marks<=79)
+       {
+         grade='c';
+       }
+       else if(marks>=60 && marks<=69)
+       {
+        grade='d';
+       }
+        else{
+         
+        grade='f';
+       }
+       
+       console.log("grade is:",grade);// Write your code here
     </script>
 </body>
 </html>
